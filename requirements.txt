@@ -1,17 +1,16 @@
 streamlit==1.49.1
 
-# Core
 numpy>=2.0,<2.3
 pillow>=10.0
-opencv-python>=4.12.0
 matplotlib>=3.8
 
-# Deep Learning
+opencv-python-headless>=4.9
+
 torch>=2.2
 torchvision>=0.17
+
 tensorflow>=2.16
 
-# Embroidery & SVG
 pyembroidery>=1.5
 svgpathtools>=1.7
 vtracer>=0.6
